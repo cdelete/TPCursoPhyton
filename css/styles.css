@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: rgb(5, 5, 24);
+    padding: 1%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .menu .logo img {
+    margin: -50%;
+    width: 40px;
+    display: block;
+}
+
+header nav .menu .links {
+    display: flex
+}
+
+header nav .menu .links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 50px;
+
+}
+
+header nav .menu .links a:hover {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 240, 240);
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.05, 1.05);
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    width: 75vw;
+    margin: auto;
+}
+
+main div img {
+    width: 70%;
+}
+
+main h1 {
+    text-align: center;
+}
+
+h1+h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+main section p {
+    text-align: justify;
+}
+
+.instrumentos img {width: 100%;}
+
+section {
+    max-width: 1140px;
+    min-width: 320px;
+    width: 100%;
+    padding: 45px 20px;
+    margin: 0 auto;
+}
+
+.contenedor2,
+.contenedor3,
+.contenedor4,
+.contenedor5,
+.contenedor6,
+.contenedor7 {
+    width: 625px;
+}
+
+.videoResponsive,
+.videoResponsive2,
+.videoResponsive3,
+.videoResponsive4,
+.videoResponsive5,
+.videoResponsive6 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.videoResponsive iframe,
+.videoResponsive2 iframe,
+.videoResponsive3 iframe,
+.videoResponsive4 iframe,
+.videoResponsive5 iframe,
+.videoResponsive6 iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+footer {
+    color: gray;
+    margin-top: auto;
+    background: black;
+    text-align: center;
+}
+
+.red-social a {
+    display: inline-block;
+    margin: 10px 20px 5px 20px;
+}
+
+.instrumentos a {
+    display: inline-block;
+    margin: 20px;
+}
+
+.titulo-instrumento {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    color: red;
+}
+
+.subtitulos-instrumentos{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.parrafos-instrumentos {
+    padding-left: 10% ;
+    padding-right: 10% ;
+    padding-bottom: 1%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ul-instrumentos {
+    padding-left: 12% ;
+    padding-right: 10% ;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ul-instrumentos li {
+    padding-bottom: 1ex;
+}
